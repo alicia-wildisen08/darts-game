@@ -1,0 +1,57 @@
+Make a dart game in which you have to shoot darts to a target. There are 
+multiple levels that you can choose before starting the game and there you are 
+only allowed to miss 3 times or the game is over. Each time you hit the target, 
+the game gets faster. And you can only shoot 3 darts at the same time. The 
+target moves along the x-axis from the right to the left of the screen and vise 
+versa. The player can move their shooting point along the x-axis too.
+
+1. step:
+Make the frame of the game.
+
+2. step:
+Set size of the darts target in the settings class. 
+Then create a class for the target and position it an let it move along the top
+x-axis of the screen from right to left vise versa.
+
+3. step:
+Make a little rectangle with a red line as an aiming-help. This shooting point
+is the place from where you shoot the darts and you can move it along the 
+x-axis of the screen. 
+
+4. step:
+Make the darts which move along the y-axis all the way up to the top of the
+screen. 
+
+5. step:
+Limit the darts, so you can only shoot 4 at the same time. Remove the darts 
+after the hit the target or dissappeared of the screen.
+
+6. step:
+Stop the game after you missshooting 8 darts. 
+
+7. step:
+Make the playbutton that you can press to start/restart the game with reseted
+game statistics, deleted darts and positioned shooting point and target.
+
+8. step:
+Set up the level buttons to choose the games level. These appear whenever the 
+game is inactive. It appears togheter with the playbutton. First you select a 
+level and then click on play to start the game.
+
+9. step:
+Each time the dart hits the target. The game gets a little bit faster. 
+
+10. step:
+Add a scoreboard to score points whenever you hit the target. And reset it after 
+restarting a new game. 
+Add a level to see what level you are after the game leveled up.
+Add in the other corner a display to show how many darts you have missed out 
+how many you are allowed to miss in one game. 
+
+11. step:
+Add a highscore that gets stored in a text-file after leaving the game. 
+Everytime you open this file new, you see your saved highscore.
+
+12. step:
+Correct: If you press the play-button but didn't select a difficulty level. 
+The game start with difficulty level "easy" and no Error appears. 
